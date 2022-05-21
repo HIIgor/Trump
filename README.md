@@ -1,24 +1,42 @@
 # Trump
 
-[![CI Status](https://img.shields.io/travis/Igor Xiang/Trump.svg?style=flat)](https://travis-ci.org/Igor Xiang/Trump)
-[![Version](https://img.shields.io/cocoapods/v/Trump.svg?style=flat)](https://cocoapods.org/pods/Trump)
-[![License](https://img.shields.io/cocoapods/l/Trump.svg?style=flat)](https://cocoapods.org/pods/Trump)
-[![Platform](https://img.shields.io/cocoapods/p/Trump.svg?style=flat)](https://cocoapods.org/pods/Trump)
+Never mind the library name!!
+This is an example application to preload resources for use with iOS applications.
 
+It is based on a module/file approach to loading, with multiple files under a module 
+
+If you want, you can adapt this to meet your needs
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Usage
 
-## Installation
+Initialize this sdk with some intercepotrs 
+`
+NSArray <TRSourceProtocol> *interceptors = [NSArray <TRSourceProtocol> arrayWithObjects: [TRSafetyInterceptor new], [TRDDNavInterceptor new], [TRFalconInterceptor new], nil];
+[TRSourceManager startWithInterceptors:interceptors];
+`
 
-Trump is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+to get source
+`
+TRSource *source = [TRSourceManager sourceWithModule:@"Falcon" file:@"somefont.ttf"];
+NSString *fontPath = source.filePath;
 
-```ruby
-pod 'Trump'
-```
+// or the source contains a dir, like this as you see below
+TRSource *source = [TRSourceManager sourceWithModule:@"Safety" file:@"images.zip" isDir:YES];
+NSString *imgpath0 = [source subfilePathForName:@"image0@2x.png"];
+NSString *imgpath1 = [source subfilePathForName:@"image1@2x.png"];
+`
+
+## Feature 
+- error retry 
+- breakpoints transfer
+- online update
+- md5 verification
+
+## Adapt
+this is a initial version, give me an issue is you want to adapt
 
 ## Author
 
