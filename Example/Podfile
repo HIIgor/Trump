@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Trump_Tests' do
+  pod 'Trump', :path => '../'
+  
+  
+end
