@@ -13,21 +13,29 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Usage
 
 Initialize this sdk with some intercepotrs 
-`
+
+```
 NSArray <TRSourceProtocol> *interceptors = [NSArray <TRSourceProtocol> arrayWithObjects: [TRSafetyInterceptor new], [TRDDNavInterceptor new], [TRFalconInterceptor new], nil];
 [TRSourceManager startWithInterceptors:interceptors];
-`
+```
 
 to get source
-`
+
+```
 TRSource *source = [TRSourceManager sourceWithModule:@"Falcon" file:@"somefont.ttf"];
+
 NSString *fontPath = source.filePath;
+```
 
 // or the source contains a dir, like this as you see below
+
+```
 TRSource *source = [TRSourceManager sourceWithModule:@"Safety" file:@"images.zip" isDir:YES];
+
 NSString *imgpath0 = [source subfilePathForName:@"image0@2x.png"];
+
 NSString *imgpath1 = [source subfilePathForName:@"image1@2x.png"];
-`
+```
 
 ## Feature 
 - error retry 
@@ -40,7 +48,7 @@ this is a initial version, give me an issue is you want to adapt
 
 ## Author
 
-Igor Xiang, xiangyaguo@xxx.com
+HiIgor
 
 ## License
 
