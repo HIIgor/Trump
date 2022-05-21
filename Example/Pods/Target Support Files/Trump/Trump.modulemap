@@ -1,0 +1,6 @@
+framework module Trump {
+  umbrella header "Trump-umbrella.h"
+
+  export *
+  module * { export * }
+}

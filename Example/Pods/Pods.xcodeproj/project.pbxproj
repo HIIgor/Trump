@@ -1,0 +1,1299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F032F6D4BFD5E10D99900F1E9B4289 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 52FCCF12CDCD9BD69A9D9217FFBAF56F /* mz_zip.c */; };
+		01F4771D9D1156DEB5D6791D4E8B2196 /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA3D55E94DEA070D7EA8427F774D71 /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02E2954BD351E7B167D8F60B13208DAF /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 034162B286052E2CE41FE0414B2088BB /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0334928027AC8CB9FA201F5F7FDEEFF9 /* TRSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE09D93C55BBD56B1D96F41C3D381B3 /* TRSourceManager.m */; };
+		067099CE158BFE19E12A7FABCE9E21B3 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A3AFCC4AF76018C31A4A02DB2B8F1A2 /* mz_strm_zlib.c */; };
+		09FE019D131368CB1204A9C40DBF357F /* TRDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E4B54F330E3707D99D11BBABBC8DF4 /* TRDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AF22012F864EE77D7A7ABFC2C4FA775 /* Trump.h in Headers */ = {isa = PBXBuildFile; fileRef = 8621642C37F611213037DEF6EAEF0631 /* Trump.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BAF96C28DAE195D3BF16C0F6715C072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2194F0DDC9D0A7752A0540F98CD69284 /* Foundation.framework */; };
+		0DA91E68C3F2A226C7427BF2A6A4B4FD /* TRDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FD0811167050F1954B06284A8371C /* TRDownloader.m */; };
+		1071D84B6431759A11FAEBAAE29E3F32 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB11B14C30C781A344D8F06B9EC4FB6 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191126E8D5A1E26339D2B767EF3AE197 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 866A2F4C3062CA8BCECAC45BF999A935 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB89FE51B482EBDEA308A0D9D7E08A7 /* TRSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 24402B4702C3E3ACB4204D9D35A62F3A /* TRSource.m */; };
+		1B8C131F10DE4E828317D656E1B9837C /* Trump-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5864D9BAA75D92A80C88D24C6D1E5C /* Trump-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202A0062F7E357F846CC5BEE99E8012C /* Pods-Trump-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8223D54F0820429F940FA238748071B /* Pods-Trump-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21BB0AB0F26B823BB35509357C72695A /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97A062491AC9FC42278526ABFD5CAA1 /* JSONModel.framework */; };
+		2238951E7A7FF8B4F8160F031BCA891C /* TRDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 826EAA08BA47983D37824EE28978B897 /* TRDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A3D3037A05E7E99AFF098D11427775 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35273DBB352AC07D112182A13FF467E4 /* JSONKeyMapper.m */; };
+		272D6901D65990818FB6355D21F6EFF1 /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C42E4EF657E8FB2A769580661878AAD /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28CD62EFF97A1D169E5BDABFB14BFA7D /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2B25C1DBD7623373C2FEE803B62FB /* mz_os_posix.c */; };
+		2A6F5A3601DA2D5680B166B90DC296A9 /* TRSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B04E263BF855C2C7DEB47A6B898F1DE6 /* TRSourceModel.m */; };
+		2A73E1818E94EFF5388A6F2E28A41EF1 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F6B1CA5A70B8515EB5756FAEC99EF9 /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30D2609AC2C0D5877165131A43B2B26B /* TRExplictDownloadCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DEA4C37E39647F28FE828A70538F1E4 /* TRExplictDownloadCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321ADE5C315DDC9A3B15DE2E8249E84B /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A250959B1D248274ADD0CFA7A1BCEDE /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AEA2F22B88CD78E671F25B60DB66ADA /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADED13B000A7AD0F753645B76AB484A /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E606EFF1B0BA9ED1977065729598542 /* Trump-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FB51B4E38DEF75A4C8D13DF6EE48E2 /* Trump-dummy.m */; };
+		416A290F1A9B0EA622074206348C613B /* TRSourceLocalInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FE774EEA55CBF3E2EDDE94EBDD27C3DA /* TRSourceLocalInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C001B8205D627442EE0260752E19BD /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A6F87FB047DBF6F0884C6F538E374B /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43E91C7F3DCE2D657D30F4B928507F1C /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D356C94A15A315A02E973A6D3597A7B /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4ED275767F95CC59BB73B6C5E521BBB9 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 66E47FB237088B1ECD709483B308E0A0 /* mz_strm_buf.c */; };
+		50D7095A383DEBA40519D7B85349CF4C /* TRSourceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E19F661FE099D0A8AB351F414FBC3B8 /* TRSourceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544B909F2BBFD22E2BCFEE939AE28737 /* TRDownloaderDelegateDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F16622ECBC6BA588D31063629F2EFD0 /* TRDownloaderDelegateDispatcher.m */; };
+		5501052F844E7E92D89B324E1B7FF5FE /* TRDownloader_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A9C11476E3D9594EB4390988A32DA0 /* TRDownloader_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		564B827B4725D4153E70DB1A472ACB88 /* TRSourceCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = C1499F31096BA872221D00852A25E0CA /* TRSourceCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58BD1EC2EF5A82892E39EEEAD59044DC /* TRSourceFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 96167C611F165DCE585812EC5F26684D /* TRSourceFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E6F7591E81B11D9C7C419340BDBB1C9 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA4D0BA7F5A78E6CCCBB39BD1C51EDF /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		632A5CDDEABDA1FB093AC7484D100B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2194F0DDC9D0A7752A0540F98CD69284 /* Foundation.framework */; };
+		63D0AFE2B402D22484A5372BA8D23372 /* TRSourceFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF20E339901DE34502BC702D2ACBF5 /* TRSourceFileManager.m */; };
+		65791C0B4659B86D3A4E5DCFAFA2844E /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = C73D1115708B1EEA91AD935C3C0ED739 /* SSZipArchive.m */; };
+		65BA05C7F3556D09D71F0A35DF58181F /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = 50CA685657D722EF903034C7744F6E6D /* mz_crypt_apple.c */; };
+		6943F6FC4C73760E0AD7F7A67AF1BC23 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = DF8830A08AC9FD833FC88EB5A561AD80 /* mz_strm.c */; };
+		6BD5F9DAC4B5A48AC277A404989D498F /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = B615B7BA88842C16420A4947ABF70D5B /* mz_os.c */; };
+		6C13CF6F3D6E4869F300BC3247550440 /* TRSourceLocalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE167FF42A0C9EA69A3AACB960BAF4 /* TRSourceLocalInfo.m */; };
+		6FCDE0D44543F4DABF90A88E056D8199 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C30812C62B02DDEDAA39DBB8EE09FAC5 /* JSONModel.m */; };
+		740B51C5384283EC876D2302EA855E67 /* TRSourceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 442036CDF5EBAAB18ED0A578BD0A988B /* TRSourceModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C58FF01D73D01E2B7BA7301B33A7F2 /* TRDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FFED94758E176DC57EE618215FCD9F /* TRDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758E9A9CE0A9DFABF0A0DDEEE034F215 /* TRDownloadAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B45E341C85CA8BBA3F13B61A8437ED /* TRDownloadAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75C939C90205A780AB001C84A0B90C24 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C25B49B95DD5CB2C70204E9EC14BD1D /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76159DA38267E13B9DB9133245DBCB53 /* TRExplictDownloadCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD50DA50E04C7AD7696F729BB955402 /* TRExplictDownloadCallback.m */; };
+		7690F167CAF7628E4385F68C6B9CDF8A /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C1CB5C370D40DCC248C229E7126F98D /* mz_compat.c */; };
+		77495FAB4DB9B77C18A04F3BD8B42731 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = C38DE24B73D0C5069C9219284B9BDCCA /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F3031B74AB69840A6B78483F2AA8D0E /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E23A3ADC2C09BE5B0464C5019F5A9FA /* mz_strm_pkcrypt.c */; };
+		830535ED707DC8D1703BF90E54C704DA /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9706A835D32A703EF6336C5EA5C43E5F /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		849DB306DAF35434B26C5A2D46FFC454 /* TRSourceSniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4756A20B61EA92C3D7175F2273BF32 /* TRSourceSniffer.m */; };
+		867EA0197CAD45760CB393E6051FDEB6 /* TRSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 648B2205BE4A0BA7F1ADCE16E83A7F6F /* TRSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88997D187246B722BB721A8027169784 /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDCE87570AE76F3C87DB5B2E8C8A51 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D35D6FFDF5A3A57EFB2C77732B22C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2194F0DDC9D0A7752A0540F98CD69284 /* Foundation.framework */; };
+		8E29C090402F60D6FFD4A2C34639E54A /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3ACF0F7C8391C257D57EA8B462ACE5B /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9000803B131E007D981B280FF00A11CA /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDC792F2F100F86963535D878608EAD /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		902DD1A0A0F3BFCDEAB36D1540D9EB9B /* TRSource_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1A00011E8965B66B70F62721979F89 /* TRSource_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B72C7666B3F7844D9416984B857D227 /* TRSourceCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE0BED299D03B2CB584E3A5617DAAB5 /* TRSourceCommon.m */; };
+		A30D8D7DAC2689A65681D8AE0A0F26EA /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BFF300F613523443B139197ED9FC0C /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3ACC2EF8A2FD91832FCCA1224689B25 /* TRDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5BA28ADCAFDC38FD3C8DE16B2D9647 /* TRDownloadManager.m */; };
+		A446D21138BF87A571F7AEDBE8B14F93 /* Pods-Trump-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81FE950E017A65546A40AFF3672C5E8 /* Pods-Trump-dummy.m */; };
+		A52DD788A5384665F425D6A2C7493AD0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C59346F98CCB21D6D4023D76FF3C52 /* JSONModelError.m */; };
+		AEEEEAAF7D8F0B8A81C8DD4A65A9CF06 /* TRDownloaderDelegateDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CA9DB629970A643958409D6200AB13 /* TRDownloaderDelegateDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0BA1C31A2A3AB25BC95A4B2DE0A7B5D /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88582CC8376DB35F0FDE3F643CAF0B /* JSONValueTransformer.m */; };
+		B4C7BC969594EB3E9323674B7FF7C66E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1329425EC1A81818D5360AB5C393C4 /* JSONHTTPClient.m */; };
+		B56CD8CBF99C38F638B738FD2FC21A6D /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D54C33CEF705A1E5E73B116826B4C1E /* mz_strm_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B65B19CB2F817CD8534D41191ED62D84 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAD5B228C2594CB25FF6F28EA11CFBA /* SSZipArchive-dummy.m */; };
+		BAE2A410126ADBEDFCB2D9EA3F6F1557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2194F0DDC9D0A7752A0540F98CD69284 /* Foundation.framework */; };
+		BEB5CE7852AEB111B6CF2832B4DF9E33 /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE4730C1121C171598E7D639037890 /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C076B8935707ECA23E5347AA0C619F11 /* TRDownloadAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F281871DD36DF0A75D1A6E2D9862FE /* TRDownloadAnalytics.m */; };
+		C25BD96E691172D62B98B2F5F8D7F0C7 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3FC7183304DEBE31C7325D110F3FD8 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64C8DE746D376EEA160794275302677 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0E87532BDCF4E68142226D8760FF5 /* JSONModelClassProperty.m */; };
+		C65CBBF120A2DD097498BFA38119D466 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD841D2F3B16810035BA2D1574DB066 /* JSONAPI.m */; };
+		C7850AB3F7B5FDCA4F1F47F1EC205276 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 811B246B38410A6BFF7E189CEE8F0ED1 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB348EF26B3AAEFD084E41FCF0C8C3BC /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = BE00E2F72CFBE7E812A9CB68B6467243 /* mz_crypt.c */; };
+		CF8A10100C1CB01B4A2E2992CD325B40 /* TRSourceSniffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2C70B80DC2917C13E79578A973E8F6 /* TRSourceSniffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD38BDDB48F8D35B9A858E957A933A2 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEB9BB1B6E9FF33BCD13D7351CD04F /* JSONModel+networking.m */; };
+		D05B2C9CBF59964953ECC39E21720B65 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC0998544448FD4468BA88B7ADD0B3A /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D358BCEB69D2E10B9BC6504C93D7D14C /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4DFE9A85587312A7BDAA227B6FA179 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D726B79B5EE4B987291CCB11D42088EE /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = AC87594BC59A9F9E76E3B47D75722BE3 /* mz_zip_rw.c */; };
+		D73FC3EAC5419280E6EC12D5A60CCEEA /* TRSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6F7F1023513C576D51CDB84A0E3B8A /* TRSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA764B6911D6569B076410213C98FD17 /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 932560CDAC163A94792F9102CCC2B988 /* mz_strm_mem.c */; };
+		DFF8D80125C062F6646E6EE798E6ABA3 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 836574DB32F0F7DB4A532A09BEBEA1E7 /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E00CEE5D80126DB104DC5ADBD55892CC /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 564DD8A6FABD37C8A3980B0EA0587027 /* mz_strm_split.c */; };
+		E3886BA871A93B03E984D8BD7823D947 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D3433965A12F8E99AD9E137099EF64 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB4320DEC9DDB9BF980D41BFBED044D1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD82AD4B445B90FED78DAB85009B097 /* Security.framework */; };
+		ECF21CE2088B4A542A445F29BA339508 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = B7C51E984029684184F2FDF2CB782EA0 /* mz_strm_wzaes.c */; };
+		F442593E37B8F49398FDB1974EDF3FD6 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CCF9BC508A267ABC9F287BDD60AD7 /* JSONModel-dummy.m */; };
+		F4CFFD9EE69DE275E19FEB216036EB91 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9918C482B01A00EF07BD723C2F551D /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7C5D46D3BD05E3326646F54395AD6E /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 119C73625382B8653A76FEF4AD41CCA2 /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC979E33FEA519CB99934E1C9D88C33E /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = B7488A59638223E0DC417B36C62BEC45 /* mz_strm_os_posix.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B5A2835FE04C7D188C9DA3BCA6EEFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		3340ED3F181D982BF00B56A665F00BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
+			remoteInfo = SSZipArchive;
+		};
+		8CA5DF05A19D86C69A4CD50BB1788494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337FF13FE2B555DB4B9CB6D201430A16;
+			remoteInfo = Trump;
+		};
+		BF9D2B8EFFD5C6A9DCB3E486E4208222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034162B286052E2CE41FE0414B2088BB /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		04FA3D55E94DEA070D7EA8427F774D71 /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
+		0A250959B1D248274ADD0CFA7A1BCEDE /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
+		0A3AFCC4AF76018C31A4A02DB2B8F1A2 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
+		0AC0998544448FD4468BA88B7ADD0B3A /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		0B0CCF9BC508A267ABC9F287BDD60AD7 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		0BD841D2F3B16810035BA2D1574DB066 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		0F3B8EA3E563F354F38914A7D1E075D1 /* Pods_Trump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Trump.framework; path = "Pods-Trump.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11942FD4BA40558EC3019918C7A0D2BF /* Trump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Trump.framework; path = Trump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		119C73625382B8653A76FEF4AD41CCA2 /* mz_strm_zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_zlib.h; path = SSZipArchive/minizip/mz_strm_zlib.h; sourceTree = "<group>"; };
+		15F281871DD36DF0A75D1A6E2D9862FE /* TRDownloadAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRDownloadAnalytics.m; sourceTree = "<group>"; };
+		17146BC5A728B203DA508000B0CF3680 /* Pods-Trump-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Trump-acknowledgements.plist"; sourceTree = "<group>"; };
+		19A6760C5D707A0A550E027499B12D56 /* Pods-Trump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trump.debug.xcconfig"; sourceTree = "<group>"; };
+		1E88582CC8376DB35F0FDE3F643CAF0B /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		2194F0DDC9D0A7752A0540F98CD69284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		223FFC11B63833637B897F5501B87FC0 /* Trump-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Trump-prefix.pch"; sourceTree = "<group>"; };
+		24402B4702C3E3ACB4204D9D35A62F3A /* TRSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRSource.m; path = Trump/Classes/TRSource.m; sourceTree = "<group>"; };
+		2A3F4C16C073BB01617EBAC6629B29AD /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		2DFEB9BB1B6E9FF33BCD13D7351CD04F /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		33CDCE87570AE76F3C87DB5B2E8C8A51 /* mz_strm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm.h; path = SSZipArchive/minizip/mz_strm.h; sourceTree = "<group>"; };
+		35273DBB352AC07D112182A13FF467E4 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		3C1CB5C370D40DCC248C229E7126F98D /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
+		3C42E4EF657E8FB2A769580661878AAD /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
+		3D4DFE9A85587312A7BDAA227B6FA179 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		3E19F661FE099D0A8AB351F414FBC3B8 /* TRSourceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRSourceProtocol.h; path = Trump/Classes/TRSourceProtocol.h; sourceTree = "<group>"; };
+		442036CDF5EBAAB18ED0A578BD0A988B /* TRSourceModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRSourceModel.h; path = Trump/Classes/TRSourceModel.h; sourceTree = "<group>"; };
+		46223A97586431AD7017F28AF850ED90 /* Pods-Trump-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Trump-frameworks.sh"; sourceTree = "<group>"; };
+		4C29071CCDDDA4647C3EBC8BCF0546C0 /* Trump-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Trump-Info.plist"; sourceTree = "<group>"; };
+		4DDC9A8AF45E384324137EA46D0F9297 /* Trump.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Trump.xcconfig; sourceTree = "<group>"; };
+		4DEA4C37E39647F28FE828A70538F1E4 /* TRExplictDownloadCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRExplictDownloadCallback.h; sourceTree = "<group>"; };
+		4E4756A20B61EA92C3D7175F2273BF32 /* TRSourceSniffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRSourceSniffer.m; path = Trump/Classes/TRSourceSniffer.m; sourceTree = "<group>"; };
+		50CA685657D722EF903034C7744F6E6D /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
+		51FFED94758E176DC57EE618215FCD9F /* TRDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRDownloader.h; sourceTree = "<group>"; };
+		52FCCF12CDCD9BD69A9D9217FFBAF56F /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
+		564DD8A6FABD37C8A3980B0EA0587027 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
+		56BE167FF42A0C9EA69A3AACB960BAF4 /* TRSourceLocalInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRSourceLocalInfo.m; sourceTree = "<group>"; };
+		5D5864D9BAA75D92A80C88D24C6D1E5C /* Trump-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Trump-umbrella.h"; sourceTree = "<group>"; };
+		5D61B241D0AC8DD2FC4543EC31A57148 /* Trump.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Trump.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5ED0E87532BDCF4E68142226D8760FF5 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		61D3433965A12F8E99AD9E137099EF64 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		648B2205BE4A0BA7F1ADCE16E83A7F6F /* TRSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRSource.h; path = Trump/Classes/TRSource.h; sourceTree = "<group>"; };
+		66E47FB237088B1ECD709483B308E0A0 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
+		6B1A00011E8965B66B70F62721979F89 /* TRSource_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRSource_Internal.h; path = Trump/Classes/TRSource_Internal.h; sourceTree = "<group>"; };
+		6CE2B25C1DBD7623373C2FEE803B62FB /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
+		6D356C94A15A315A02E973A6D3597A7B /* mz_strm_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_os.h; path = SSZipArchive/minizip/mz_strm_os.h; sourceTree = "<group>"; };
+		6D9918C482B01A00EF07BD723C2F551D /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		6E5BA28ADCAFDC38FD3C8DE16B2D9647 /* TRDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRDownloadManager.m; sourceTree = "<group>"; };
+		7698A6D2ECADE681D2C124867DE1F385 /* Pods-Trump.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Trump.modulemap"; sourceTree = "<group>"; };
+		7813E84BB2528F5EA88FE2293E3797F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C25B49B95DD5CB2C70204E9EC14BD1D /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		7E23A3ADC2C09BE5B0464C5019F5A9FA /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		7E9FD0811167050F1954B06284A8371C /* TRDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRDownloader.m; sourceTree = "<group>"; };
+		8100E91E34C959430ADBAC3B5E279863 /* JSONModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSONModel-Info.plist"; sourceTree = "<group>"; };
+		811B246B38410A6BFF7E189CEE8F0ED1 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		826EAA08BA47983D37824EE28978B897 /* TRDownload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRDownload.h; sourceTree = "<group>"; };
+		82C2D8660E6D99149F47D0D98F0AEEB0 /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
+		836574DB32F0F7DB4A532A09BEBEA1E7 /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
+		8621642C37F611213037DEF6EAEF0631 /* Trump.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Trump.h; path = Trump/Classes/Trump.h; sourceTree = "<group>"; };
+		866A2F4C3062CA8BCECAC45BF999A935 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		8ADED13B000A7AD0F753645B76AB484A /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		8C420589D2D71296FCE12E9F1CAF9F19 /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
+		8D54C33CEF705A1E5E73B116826B4C1E /* mz_strm_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_buf.h; path = SSZipArchive/minizip/mz_strm_buf.h; sourceTree = "<group>"; };
+		91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		932560CDAC163A94792F9102CCC2B988 /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
+		94A9C11476E3D9594EB4390988A32DA0 /* TRDownloader_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRDownloader_Internal.h; sourceTree = "<group>"; };
+		96167C611F165DCE585812EC5F26684D /* TRSourceFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRSourceFileManager.h; sourceTree = "<group>"; };
+		9706A835D32A703EF6336C5EA5C43E5F /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_pkcrypt.h; path = SSZipArchive/minizip/mz_strm_pkcrypt.h; sourceTree = "<group>"; };
+		97C59346F98CCB21D6D4023D76FF3C52 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		9CFF20E339901DE34502BC702D2ACBF5 /* TRSourceFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRSourceFileManager.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F16622ECBC6BA588D31063629F2EFD0 /* TRDownloaderDelegateDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRDownloaderDelegateDispatcher.m; sourceTree = "<group>"; };
+		9F3FC7183304DEBE31C7325D110F3FD8 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		A2E4B54F330E3707D99D11BBABBC8DF4 /* TRDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRDownloadManager.h; sourceTree = "<group>"; };
+		A5DE4730C1121C171598E7D639037890 /* mz_strm_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_mem.h; path = SSZipArchive/minizip/mz_strm_mem.h; sourceTree = "<group>"; };
+		A9FB51B4E38DEF75A4C8D13DF6EE48E2 /* Trump-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Trump-dummy.m"; sourceTree = "<group>"; };
+		AA1329425EC1A81818D5360AB5C393C4 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		AB0F7B8BCD361E6BC126A2D2FD178464 /* Trump.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Trump.modulemap; sourceTree = "<group>"; };
+		AC4A275ACF8E3369D820433E93D44F7D /* Pods-Trump-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Trump-Info.plist"; sourceTree = "<group>"; };
+		AC87594BC59A9F9E76E3B47D75722BE3 /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
+		ADD82AD4B445B90FED78DAB85009B097 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		AFC106ED26903461581C4DEBDB9A7B7D /* Pods-Trump-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Trump-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B04E263BF855C2C7DEB47A6B898F1DE6 /* TRSourceModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRSourceModel.m; path = Trump/Classes/TRSourceModel.m; sourceTree = "<group>"; };
+		B3ACF0F7C8391C257D57EA8B462ACE5B /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
+		B615B7BA88842C16420A4947ABF70D5B /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
+		B7488A59638223E0DC417B36C62BEC45 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
+		B7C51E984029684184F2FDF2CB782EA0 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
+		B8A6F87FB047DBF6F0884C6F538E374B /* mz_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_compat.h; path = SSZipArchive/minizip/mz_compat.h; sourceTree = "<group>"; };
+		BAA4D0BA7F5A78E6CCCBB39BD1C51EDF /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
+		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE00E2F72CFBE7E812A9CB68B6467243 /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
+		BECF4AAFAD3767D4073D21F9546259E9 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		C0B45E341C85CA8BBA3F13B61A8437ED /* TRDownloadAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRDownloadAnalytics.h; sourceTree = "<group>"; };
+		C1499F31096BA872221D00852A25E0CA /* TRSourceCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRSourceCommon.h; path = Trump/Classes/TRSourceCommon.h; sourceTree = "<group>"; };
+		C1D2AEF647C4AB7FEA5F3F8A2A44B8DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C30812C62B02DDEDAA39DBB8EE09FAC5 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		C38DE24B73D0C5069C9219284B9BDCCA /* mz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz.h; path = SSZipArchive/minizip/mz.h; sourceTree = "<group>"; };
+		C63671901CDA588CF73E918C1C8755B5 /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		C73D1115708B1EEA91AD935C3C0ED739 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		C81FE950E017A65546A40AFF3672C5E8 /* Pods-Trump-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Trump-dummy.m"; sourceTree = "<group>"; };
+		D2CA9DB629970A643958409D6200AB13 /* TRDownloaderDelegateDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRDownloaderDelegateDispatcher.h; sourceTree = "<group>"; };
+		D3CE8DC9CB5FADB029DECD4324396305 /* Pods-Trump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trump.release.xcconfig"; sourceTree = "<group>"; };
+		DBE09D93C55BBD56B1D96F41C3D381B3 /* TRSourceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRSourceManager.m; path = Trump/Classes/TRSourceManager.m; sourceTree = "<group>"; };
+		DDD50DA50E04C7AD7696F729BB955402 /* TRExplictDownloadCallback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRExplictDownloadCallback.m; sourceTree = "<group>"; };
+		DF50C521B5ADDE7D067A07317BF26562 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		DF8830A08AC9FD833FC88EB5A561AD80 /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
+		E6686985DC80AA5FED7F1C44DB9DABED /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		E7BFF300F613523443B139197ED9FC0C /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		EB6F7F1023513C576D51CDB84A0E3B8A /* TRSourceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRSourceManager.h; path = Trump/Classes/TRSourceManager.h; sourceTree = "<group>"; };
+		EDB11B14C30C781A344D8F06B9EC4FB6 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		EEDC792F2F100F86963535D878608EAD /* mz_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip.h; path = SSZipArchive/minizip/mz_zip.h; sourceTree = "<group>"; };
+		F5F6B1CA5A70B8515EB5756FAEC99EF9 /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
+		F8223D54F0820429F940FA238748071B /* Pods-Trump-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Trump-umbrella.h"; sourceTree = "<group>"; };
+		F97A062491AC9FC42278526ABFD5CAA1 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C70B80DC2917C13E79578A973E8F6 /* TRSourceSniffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRSourceSniffer.h; path = Trump/Classes/TRSourceSniffer.h; sourceTree = "<group>"; };
+		FCAD5B228C2594CB25FF6F28EA11CFBA /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		FE774EEA55CBF3E2EDDE94EBDD27C3DA /* TRSourceLocalInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRSourceLocalInfo.h; sourceTree = "<group>"; };
+		FEE0BED299D03B2CB584E3A5617DAAB5 /* TRSourceCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRSourceCommon.m; path = Trump/Classes/TRSourceCommon.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A567FACDB6AACC8906709FB9B50621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE2A410126ADBEDFCB2D9EA3F6F1557 /* Foundation.framework in Frameworks */,
+				21BB0AB0F26B823BB35509357C72695A /* JSONModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52823A54EEC44ADCFBF558FE8B34C71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAF96C28DAE195D3BF16C0F6715C072 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886E050E05F79FD43F2409BED7E67F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632A5CDDEABDA1FB093AC7484D100B77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8EEBEDA3883D3B58F90484D3FBCA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D35D6FFDF5A3A57EFB2C77732B22C43 /* Foundation.framework in Frameworks */,
+				EB4320DEC9DDB9BF980D41BFBED044D1 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027F5E4ACB804B5283ADBC9A4A59E323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F97A062491AC9FC42278526ABFD5CAA1 /* JSONModel.framework */,
+				FA22E99324E1F162737396BCDCEA4BED /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12F3D49456B0073220EC2D477A217C28 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				8ADED13B000A7AD0F753645B76AB484A /* JSONAPI.h */,
+				0BD841D2F3B16810035BA2D1574DB066 /* JSONAPI.m */,
+				EDB11B14C30C781A344D8F06B9EC4FB6 /* JSONHTTPClient.h */,
+				AA1329425EC1A81818D5360AB5C393C4 /* JSONHTTPClient.m */,
+				811B246B38410A6BFF7E189CEE8F0ED1 /* JSONKeyMapper.h */,
+				35273DBB352AC07D112182A13FF467E4 /* JSONKeyMapper.m */,
+				7C25B49B95DD5CB2C70204E9EC14BD1D /* JSONModel.h */,
+				C30812C62B02DDEDAA39DBB8EE09FAC5 /* JSONModel.m */,
+				866A2F4C3062CA8BCECAC45BF999A935 /* JSONModel+networking.h */,
+				2DFEB9BB1B6E9FF33BCD13D7351CD04F /* JSONModel+networking.m */,
+				3D4DFE9A85587312A7BDAA227B6FA179 /* JSONModelClassProperty.h */,
+				5ED0E87532BDCF4E68142226D8760FF5 /* JSONModelClassProperty.m */,
+				034162B286052E2CE41FE0414B2088BB /* JSONModelError.h */,
+				97C59346F98CCB21D6D4023D76FF3C52 /* JSONModelError.m */,
+				9F3FC7183304DEBE31C7325D110F3FD8 /* JSONModelLib.h */,
+				61D3433965A12F8E99AD9E137099EF64 /* JSONValueTransformer.h */,
+				1E88582CC8376DB35F0FDE3F643CAF0B /* JSONValueTransformer.m */,
+				2889B5662D70834228CF413159666B96 /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		262E4BEE45CAFEF4A448CD17F700F10B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2AEF647C4AB7FEA5F3F8A2A44B8DC /* LICENSE */,
+				7813E84BB2528F5EA88FE2293E3797F8 /* README.md */,
+				5D61B241D0AC8DD2FC4543EC31A57148 /* Trump.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		280ECDDA1CBDE11ABC325362205B9B26 /* Pods-Trump */ = {
+			isa = PBXGroup;
+			children = (
+				7698A6D2ECADE681D2C124867DE1F385 /* Pods-Trump.modulemap */,
+				AFC106ED26903461581C4DEBDB9A7B7D /* Pods-Trump-acknowledgements.markdown */,
+				17146BC5A728B203DA508000B0CF3680 /* Pods-Trump-acknowledgements.plist */,
+				C81FE950E017A65546A40AFF3672C5E8 /* Pods-Trump-dummy.m */,
+				46223A97586431AD7017F28AF850ED90 /* Pods-Trump-frameworks.sh */,
+				AC4A275ACF8E3369D820433E93D44F7D /* Pods-Trump-Info.plist */,
+				F8223D54F0820429F940FA238748071B /* Pods-Trump-umbrella.h */,
+				19A6760C5D707A0A550E027499B12D56 /* Pods-Trump.debug.xcconfig */,
+				D3CE8DC9CB5FADB029DECD4324396305 /* Pods-Trump.release.xcconfig */,
+			);
+			name = "Pods-Trump";
+			path = "Target Support Files/Pods-Trump";
+			sourceTree = "<group>";
+		};
+		2889B5662D70834228CF413159666B96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BECF4AAFAD3767D4073D21F9546259E9 /* JSONModel.modulemap */,
+				E6686985DC80AA5FED7F1C44DB9DABED /* JSONModel.xcconfig */,
+				0B0CCF9BC508A267ABC9F287BDD60AD7 /* JSONModel-dummy.m */,
+				8100E91E34C959430ADBAC3B5E279863 /* JSONModel-Info.plist */,
+				2A3F4C16C073BB01617EBAC6629B29AD /* JSONModel-prefix.pch */,
+				836574DB32F0F7DB4A532A09BEBEA1E7 /* JSONModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		2C2848E7FCDACAD8C2206D4C0C02AC4D /* TRFileHandler */ = {
+			isa = PBXGroup;
+			children = (
+				96167C611F165DCE585812EC5F26684D /* TRSourceFileManager.h */,
+				9CFF20E339901DE34502BC702D2ACBF5 /* TRSourceFileManager.m */,
+				FE774EEA55CBF3E2EDDE94EBDD27C3DA /* TRSourceLocalInfo.h */,
+				56BE167FF42A0C9EA69A3AACB960BAF4 /* TRSourceLocalInfo.m */,
+			);
+			name = TRFileHandler;
+			path = Trump/Classes/TRFileHandler;
+			sourceTree = "<group>";
+		};
+		47538F10D99EC08BBCA41B842ACB1C85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12F3D49456B0073220EC2D477A217C28 /* JSONModel */,
+				B43187F18BEA8A7F256471F676991A14 /* SSZipArchive */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53E3C735E6A37E182C1BBEBF79F6DF2A /* Trump */ = {
+			isa = PBXGroup;
+			children = (
+				648B2205BE4A0BA7F1ADCE16E83A7F6F /* TRSource.h */,
+				24402B4702C3E3ACB4204D9D35A62F3A /* TRSource.m */,
+				6B1A00011E8965B66B70F62721979F89 /* TRSource_Internal.h */,
+				C1499F31096BA872221D00852A25E0CA /* TRSourceCommon.h */,
+				FEE0BED299D03B2CB584E3A5617DAAB5 /* TRSourceCommon.m */,
+				EB6F7F1023513C576D51CDB84A0E3B8A /* TRSourceManager.h */,
+				DBE09D93C55BBD56B1D96F41C3D381B3 /* TRSourceManager.m */,
+				442036CDF5EBAAB18ED0A578BD0A988B /* TRSourceModel.h */,
+				B04E263BF855C2C7DEB47A6B898F1DE6 /* TRSourceModel.m */,
+				3E19F661FE099D0A8AB351F414FBC3B8 /* TRSourceProtocol.h */,
+				FA2C70B80DC2917C13E79578A973E8F6 /* TRSourceSniffer.h */,
+				4E4756A20B61EA92C3D7175F2273BF32 /* TRSourceSniffer.m */,
+				8621642C37F611213037DEF6EAEF0631 /* Trump.h */,
+				262E4BEE45CAFEF4A448CD17F700F10B /* Pod */,
+				5BD250FA75154617A1E942319991932C /* Support Files */,
+				99C04F248840A35F995CC2945F9E8C89 /* TRDonwloadDelegateDispatcher */,
+				87BE0D88008A722EEC8571920CF135BA /* TRDownload */,
+				2C2848E7FCDACAD8C2206D4C0C02AC4D /* TRFileHandler */,
+			);
+			name = Trump;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5BD250FA75154617A1E942319991932C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB0F7B8BCD361E6BC126A2D2FD178464 /* Trump.modulemap */,
+				4DDC9A8AF45E384324137EA46D0F9297 /* Trump.xcconfig */,
+				A9FB51B4E38DEF75A4C8D13DF6EE48E2 /* Trump-dummy.m */,
+				4C29071CCDDDA4647C3EBC8BCF0546C0 /* Trump-Info.plist */,
+				223FFC11B63833637B897F5501B87FC0 /* Trump-prefix.pch */,
+				5D5864D9BAA75D92A80C88D24C6D1E5C /* Trump-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Trump";
+			sourceTree = "<group>";
+		};
+		87BE0D88008A722EEC8571920CF135BA /* TRDownload */ = {
+			isa = PBXGroup;
+			children = (
+				826EAA08BA47983D37824EE28978B897 /* TRDownload.h */,
+				51FFED94758E176DC57EE618215FCD9F /* TRDownloader.h */,
+				7E9FD0811167050F1954B06284A8371C /* TRDownloader.m */,
+				94A9C11476E3D9594EB4390988A32DA0 /* TRDownloader_Internal.h */,
+				A2E4B54F330E3707D99D11BBABBC8DF4 /* TRDownloadManager.h */,
+				6E5BA28ADCAFDC38FD3C8DE16B2D9647 /* TRDownloadManager.m */,
+			);
+			name = TRDownload;
+			path = Trump/Classes/TRDownload;
+			sourceTree = "<group>";
+		};
+		8F7D523E36EA7ECDC4616E278307C25A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				280ECDDA1CBDE11ABC325362205B9B26 /* Pods-Trump */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		99C04F248840A35F995CC2945F9E8C89 /* TRDonwloadDelegateDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				C0B45E341C85CA8BBA3F13B61A8437ED /* TRDownloadAnalytics.h */,
+				15F281871DD36DF0A75D1A6E2D9862FE /* TRDownloadAnalytics.m */,
+				D2CA9DB629970A643958409D6200AB13 /* TRDownloaderDelegateDispatcher.h */,
+				9F16622ECBC6BA588D31063629F2EFD0 /* TRDownloaderDelegateDispatcher.m */,
+				4DEA4C37E39647F28FE828A70538F1E4 /* TRExplictDownloadCallback.h */,
+				DDD50DA50E04C7AD7696F729BB955402 /* TRExplictDownloadCallback.m */,
+			);
+			name = TRDonwloadDelegateDispatcher;
+			path = Trump/Classes/TRDonwloadDelegateDispatcher;
+			sourceTree = "<group>";
+		};
+		B43187F18BEA8A7F256471F676991A14 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				C38DE24B73D0C5069C9219284B9BDCCA /* mz.h */,
+				3C1CB5C370D40DCC248C229E7126F98D /* mz_compat.c */,
+				B8A6F87FB047DBF6F0884C6F538E374B /* mz_compat.h */,
+				BE00E2F72CFBE7E812A9CB68B6467243 /* mz_crypt.c */,
+				F5F6B1CA5A70B8515EB5756FAEC99EF9 /* mz_crypt.h */,
+				50CA685657D722EF903034C7744F6E6D /* mz_crypt_apple.c */,
+				B615B7BA88842C16420A4947ABF70D5B /* mz_os.c */,
+				04FA3D55E94DEA070D7EA8427F774D71 /* mz_os.h */,
+				6CE2B25C1DBD7623373C2FEE803B62FB /* mz_os_posix.c */,
+				DF8830A08AC9FD833FC88EB5A561AD80 /* mz_strm.c */,
+				33CDCE87570AE76F3C87DB5B2E8C8A51 /* mz_strm.h */,
+				66E47FB237088B1ECD709483B308E0A0 /* mz_strm_buf.c */,
+				8D54C33CEF705A1E5E73B116826B4C1E /* mz_strm_buf.h */,
+				932560CDAC163A94792F9102CCC2B988 /* mz_strm_mem.c */,
+				A5DE4730C1121C171598E7D639037890 /* mz_strm_mem.h */,
+				6D356C94A15A315A02E973A6D3597A7B /* mz_strm_os.h */,
+				B7488A59638223E0DC417B36C62BEC45 /* mz_strm_os_posix.c */,
+				7E23A3ADC2C09BE5B0464C5019F5A9FA /* mz_strm_pkcrypt.c */,
+				9706A835D32A703EF6336C5EA5C43E5F /* mz_strm_pkcrypt.h */,
+				564DD8A6FABD37C8A3980B0EA0587027 /* mz_strm_split.c */,
+				3C42E4EF657E8FB2A769580661878AAD /* mz_strm_split.h */,
+				B7C51E984029684184F2FDF2CB782EA0 /* mz_strm_wzaes.c */,
+				BAA4D0BA7F5A78E6CCCBB39BD1C51EDF /* mz_strm_wzaes.h */,
+				0A3AFCC4AF76018C31A4A02DB2B8F1A2 /* mz_strm_zlib.c */,
+				119C73625382B8653A76FEF4AD41CCA2 /* mz_strm_zlib.h */,
+				52FCCF12CDCD9BD69A9D9217FFBAF56F /* mz_zip.c */,
+				EEDC792F2F100F86963535D878608EAD /* mz_zip.h */,
+				AC87594BC59A9F9E76E3B47D75722BE3 /* mz_zip_rw.c */,
+				0A250959B1D248274ADD0CFA7A1BCEDE /* mz_zip_rw.h */,
+				0AC0998544448FD4468BA88B7ADD0B3A /* SSZipArchive.h */,
+				C73D1115708B1EEA91AD935C3C0ED739 /* SSZipArchive.m */,
+				E7BFF300F613523443B139197ED9FC0C /* SSZipCommon.h */,
+				6D9918C482B01A00EF07BD723C2F551D /* ZipArchive.h */,
+				FB1B8766F6F011FAED44F4CCF8E94780 /* Support Files */,
+			);
+			name = SSZipArchive;
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		C59B340F28730CB43D10F3665ADEB142 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53E3C735E6A37E182C1BBEBF79F6DF2A /* Trump */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C7333A3B11311863103BB5301253A777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */,
+				0F3B8EA3E563F354F38914A7D1E075D1 /* Pods_Trump.framework */,
+				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */,
+				11942FD4BA40558EC3019918C7A0D2BF /* Trump.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C59B340F28730CB43D10F3665ADEB142 /* Development Pods */,
+				027F5E4ACB804B5283ADBC9A4A59E323 /* Frameworks */,
+				47538F10D99EC08BBCA41B842ACB1C85 /* Pods */,
+				C7333A3B11311863103BB5301253A777 /* Products */,
+				8F7D523E36EA7ECDC4616E278307C25A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FA22E99324E1F162737396BCDCEA4BED /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2194F0DDC9D0A7752A0540F98CD69284 /* Foundation.framework */,
+				ADD82AD4B445B90FED78DAB85009B097 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB1B8766F6F011FAED44F4CCF8E94780 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C2D8660E6D99149F47D0D98F0AEEB0 /* SSZipArchive.modulemap */,
+				C63671901CDA588CF73E918C1C8755B5 /* SSZipArchive.xcconfig */,
+				FCAD5B228C2594CB25FF6F28EA11CFBA /* SSZipArchive-dummy.m */,
+				8C420589D2D71296FCE12E9F1CAF9F19 /* SSZipArchive-Info.plist */,
+				DF50C521B5ADDE7D067A07317BF26562 /* SSZipArchive-prefix.pch */,
+				B3ACF0F7C8391C257D57EA8B462ACE5B /* SSZipArchive-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4374B519B700445637585AF3DDB6366A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202A0062F7E357F846CC5BEE99E8012C /* Pods-Trump-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10AE64316B9C31B3BB6170AF9933749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEA2F22B88CD78E671F25B60DB66ADA /* JSONAPI.h in Headers */,
+				1071D84B6431759A11FAEBAAE29E3F32 /* JSONHTTPClient.h in Headers */,
+				C7850AB3F7B5FDCA4F1F47F1EC205276 /* JSONKeyMapper.h in Headers */,
+				191126E8D5A1E26339D2B767EF3AE197 /* JSONModel+networking.h in Headers */,
+				DFF8D80125C062F6646E6EE798E6ABA3 /* JSONModel-umbrella.h in Headers */,
+				75C939C90205A780AB001C84A0B90C24 /* JSONModel.h in Headers */,
+				D358BCEB69D2E10B9BC6504C93D7D14C /* JSONModelClassProperty.h in Headers */,
+				02E2954BD351E7B167D8F60B13208DAF /* JSONModelError.h in Headers */,
+				C25BD96E691172D62B98B2F5F8D7F0C7 /* JSONModelLib.h in Headers */,
+				E3886BA871A93B03E984D8BD7823D947 /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6017D0DD704C9A2038FCB5506FFFCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77495FAB4DB9B77C18A04F3BD8B42731 /* mz.h in Headers */,
+				43C001B8205D627442EE0260752E19BD /* mz_compat.h in Headers */,
+				2A73E1818E94EFF5388A6F2E28A41EF1 /* mz_crypt.h in Headers */,
+				01F4771D9D1156DEB5D6791D4E8B2196 /* mz_os.h in Headers */,
+				88997D187246B722BB721A8027169784 /* mz_strm.h in Headers */,
+				B56CD8CBF99C38F638B738FD2FC21A6D /* mz_strm_buf.h in Headers */,
+				BEB5CE7852AEB111B6CF2832B4DF9E33 /* mz_strm_mem.h in Headers */,
+				43E91C7F3DCE2D657D30F4B928507F1C /* mz_strm_os.h in Headers */,
+				830535ED707DC8D1703BF90E54C704DA /* mz_strm_pkcrypt.h in Headers */,
+				272D6901D65990818FB6355D21F6EFF1 /* mz_strm_split.h in Headers */,
+				5E6F7591E81B11D9C7C419340BDBB1C9 /* mz_strm_wzaes.h in Headers */,
+				FA7C5D46D3BD05E3326646F54395AD6E /* mz_strm_zlib.h in Headers */,
+				9000803B131E007D981B280FF00A11CA /* mz_zip.h in Headers */,
+				321ADE5C315DDC9A3B15DE2E8249E84B /* mz_zip_rw.h in Headers */,
+				8E29C090402F60D6FFD4A2C34639E54A /* SSZipArchive-umbrella.h in Headers */,
+				D05B2C9CBF59964953ECC39E21720B65 /* SSZipArchive.h in Headers */,
+				A30D8D7DAC2689A65681D8AE0A0F26EA /* SSZipCommon.h in Headers */,
+				F4CFFD9EE69DE275E19FEB216036EB91 /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6EFD3E2C21D3507167615078F41752 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2238951E7A7FF8B4F8160F031BCA891C /* TRDownload.h in Headers */,
+				758E9A9CE0A9DFABF0A0DDEEE034F215 /* TRDownloadAnalytics.h in Headers */,
+				74C58FF01D73D01E2B7BA7301B33A7F2 /* TRDownloader.h in Headers */,
+				5501052F844E7E92D89B324E1B7FF5FE /* TRDownloader_Internal.h in Headers */,
+				AEEEEAAF7D8F0B8A81C8DD4A65A9CF06 /* TRDownloaderDelegateDispatcher.h in Headers */,
+				09FE019D131368CB1204A9C40DBF357F /* TRDownloadManager.h in Headers */,
+				30D2609AC2C0D5877165131A43B2B26B /* TRExplictDownloadCallback.h in Headers */,
+				867EA0197CAD45760CB393E6051FDEB6 /* TRSource.h in Headers */,
+				902DD1A0A0F3BFCDEAB36D1540D9EB9B /* TRSource_Internal.h in Headers */,
+				564B827B4725D4153E70DB1A472ACB88 /* TRSourceCommon.h in Headers */,
+				58BD1EC2EF5A82892E39EEEAD59044DC /* TRSourceFileManager.h in Headers */,
+				416A290F1A9B0EA622074206348C613B /* TRSourceLocalInfo.h in Headers */,
+				D73FC3EAC5419280E6EC12D5A60CCEEA /* TRSourceManager.h in Headers */,
+				740B51C5384283EC876D2302EA855E67 /* TRSourceModel.h in Headers */,
+				50D7095A383DEBA40519D7B85349CF4C /* TRSourceProtocol.h in Headers */,
+				CF8A10100C1CB01B4A2E2992CD325B40 /* TRSourceSniffer.h in Headers */,
+				1B8C131F10DE4E828317D656E1B9837C /* Trump-umbrella.h in Headers */,
+				0AF22012F864EE77D7A7ABFC2C4FA775 /* Trump.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		161F780B17881826111655537013E782 /* Pods-Trump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5D4F368320C21A96E03BB51B4AE303F /* Build configuration list for PBXNativeTarget "Pods-Trump" */;
+			buildPhases = (
+				4374B519B700445637585AF3DDB6366A /* Headers */,
+				0CE0141A249D20500AA516908532DCB5 /* Sources */,
+				52823A54EEC44ADCFBF558FE8B34C71A /* Frameworks */,
+				C8E11BC2822D91A549249CBB04C1DB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D59151D234CD8C79DBA664291CF30A5 /* PBXTargetDependency */,
+				A71B84218E31E7F8C523974E508D460A /* PBXTargetDependency */,
+				C00824E509DBF47AFE033094D4DF96FD /* PBXTargetDependency */,
+			);
+			name = "Pods-Trump";
+			productName = "Pods-Trump";
+			productReference = 0F3B8EA3E563F354F38914A7D1E075D1 /* Pods_Trump.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		337FF13FE2B555DB4B9CB6D201430A16 /* Trump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25535D9FD9775BD003DBF462D26763B /* Build configuration list for PBXNativeTarget "Trump" */;
+			buildPhases = (
+				DA6EFD3E2C21D3507167615078F41752 /* Headers */,
+				AC9AEF2BD8B21150F8FE8689D1C26BFA /* Sources */,
+				48A567FACDB6AACC8906709FB9B50621 /* Frameworks */,
+				F5DFF25BC4DCD2E546C2202CBB665316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450EFFD13F930DE4E6AD576E369744FF /* PBXTargetDependency */,
+			);
+			name = Trump;
+			productName = Trump;
+			productReference = 11942FD4BA40558EC3019918C7A0D2BF /* Trump.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864246C4794538189B6310F839B9CD50 /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				C10AE64316B9C31B3BB6170AF9933749 /* Headers */,
+				9110B95813C4D6328D3D0802138CFDE0 /* Sources */,
+				886E050E05F79FD43F2409BED7E67F73 /* Frameworks */,
+				33431436401EBC85BE0A907D9728DA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5E31FD449B316C6A8D8950A199B7BD /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				CF6017D0DD704C9A2038FCB5506FFFCB /* Headers */,
+				37DF1DAD5E2A8021EDD94A5055EC41F0 /* Sources */,
+				DF8EEBEDA3883D3B58F90484D3FBCA8C /* Frameworks */,
+				15EB00C65DCFB3BD8434931A61292162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C7333A3B11311863103BB5301253A777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */,
+				161F780B17881826111655537013E782 /* Pods-Trump */,
+				F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */,
+				337FF13FE2B555DB4B9CB6D201430A16 /* Trump */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EB00C65DCFB3BD8434931A61292162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33431436401EBC85BE0A907D9728DA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E11BC2822D91A549249CBB04C1DB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DFF25BC4DCD2E546C2202CBB665316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CE0141A249D20500AA516908532DCB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A446D21138BF87A571F7AEDBE8B14F93 /* Pods-Trump-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF1DAD5E2A8021EDD94A5055EC41F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7690F167CAF7628E4385F68C6B9CDF8A /* mz_compat.c in Sources */,
+				CB348EF26B3AAEFD084E41FCF0C8C3BC /* mz_crypt.c in Sources */,
+				65BA05C7F3556D09D71F0A35DF58181F /* mz_crypt_apple.c in Sources */,
+				6BD5F9DAC4B5A48AC277A404989D498F /* mz_os.c in Sources */,
+				28CD62EFF97A1D169E5BDABFB14BFA7D /* mz_os_posix.c in Sources */,
+				6943F6FC4C73760E0AD7F7A67AF1BC23 /* mz_strm.c in Sources */,
+				4ED275767F95CC59BB73B6C5E521BBB9 /* mz_strm_buf.c in Sources */,
+				DA764B6911D6569B076410213C98FD17 /* mz_strm_mem.c in Sources */,
+				FC979E33FEA519CB99934E1C9D88C33E /* mz_strm_os_posix.c in Sources */,
+				7F3031B74AB69840A6B78483F2AA8D0E /* mz_strm_pkcrypt.c in Sources */,
+				E00CEE5D80126DB104DC5ADBD55892CC /* mz_strm_split.c in Sources */,
+				ECF21CE2088B4A542A445F29BA339508 /* mz_strm_wzaes.c in Sources */,
+				067099CE158BFE19E12A7FABCE9E21B3 /* mz_strm_zlib.c in Sources */,
+				01F032F6D4BFD5E10D99900F1E9B4289 /* mz_zip.c in Sources */,
+				D726B79B5EE4B987291CCB11D42088EE /* mz_zip_rw.c in Sources */,
+				B65B19CB2F817CD8534D41191ED62D84 /* SSZipArchive-dummy.m in Sources */,
+				65791C0B4659B86D3A4E5DCFAFA2844E /* SSZipArchive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110B95813C4D6328D3D0802138CFDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CBBF120A2DD097498BFA38119D466 /* JSONAPI.m in Sources */,
+				B4C7BC969594EB3E9323674B7FF7C66E /* JSONHTTPClient.m in Sources */,
+				26A3D3037A05E7E99AFF098D11427775 /* JSONKeyMapper.m in Sources */,
+				CFD38BDDB48F8D35B9A858E957A933A2 /* JSONModel+networking.m in Sources */,
+				F442593E37B8F49398FDB1974EDF3FD6 /* JSONModel-dummy.m in Sources */,
+				6FCDE0D44543F4DABF90A88E056D8199 /* JSONModel.m in Sources */,
+				C64C8DE746D376EEA160794275302677 /* JSONModelClassProperty.m in Sources */,
+				A52DD788A5384665F425D6A2C7493AD0 /* JSONModelError.m in Sources */,
+				B0BA1C31A2A3AB25BC95A4B2DE0A7B5D /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9AEF2BD8B21150F8FE8689D1C26BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C076B8935707ECA23E5347AA0C619F11 /* TRDownloadAnalytics.m in Sources */,
+				0DA91E68C3F2A226C7427BF2A6A4B4FD /* TRDownloader.m in Sources */,
+				544B909F2BBFD22E2BCFEE939AE28737 /* TRDownloaderDelegateDispatcher.m in Sources */,
+				A3ACC2EF8A2FD91832FCCA1224689B25 /* TRDownloadManager.m in Sources */,
+				76159DA38267E13B9DB9133245DBCB53 /* TRExplictDownloadCallback.m in Sources */,
+				1AB89FE51B482EBDEA308A0D9D7E08A7 /* TRSource.m in Sources */,
+				9B72C7666B3F7844D9416984B857D227 /* TRSourceCommon.m in Sources */,
+				63D0AFE2B402D22484A5372BA8D23372 /* TRSourceFileManager.m in Sources */,
+				6C13CF6F3D6E4869F300BC3247550440 /* TRSourceLocalInfo.m in Sources */,
+				0334928027AC8CB9FA201F5F7FDEEFF9 /* TRSourceManager.m in Sources */,
+				2A6F5A3601DA2D5680B166B90DC296A9 /* TRSourceModel.m in Sources */,
+				849DB306DAF35434B26C5A2D46FFC454 /* TRSourceSniffer.m in Sources */,
+				3E606EFF1B0BA9ED1977065729598542 /* Trump-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		450EFFD13F930DE4E6AD576E369744FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = BF9D2B8EFFD5C6A9DCB3E486E4208222 /* PBXContainerItemProxy */;
+		};
+		8D59151D234CD8C79DBA664291CF30A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = 0B5A2835FE04C7D188C9DA3BCA6EEFD3 /* PBXContainerItemProxy */;
+		};
+		A71B84218E31E7F8C523974E508D460A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
+			targetProxy = 3340ED3F181D982BF00B56A665F00BF1 /* PBXContainerItemProxy */;
+		};
+		C00824E509DBF47AFE033094D4DF96FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Trump;
+			target = 337FF13FE2B555DB4B9CB6D201430A16 /* Trump */;
+			targetProxy = 8CA5DF05A19D86C69A4CD50BB1788494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2188B93746A10E247BA5664A9269330B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6686985DC80AA5FED7F1C44DB9DABED /* JSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CE129EB08C29B2B78780DD0420D75D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63671901CDA588CF73E918C1C8755B5 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F7922C24CD0E98077BF5EE84EC5E230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6686985DC80AA5FED7F1C44DB9DABED /* JSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F2D9389513A977325A8CFE0C9658895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A6760C5D707A0A550E027499B12D56 /* Pods-Trump.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Trump/Pods-Trump-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Trump/Pods-Trump.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A0F2B0C28327F4F6A32ADB8D0EBD2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDC9A8AF45E384324137EA46D0F9297 /* Trump.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Trump/Trump-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Trump/Trump-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Trump/Trump.modulemap";
+				PRODUCT_MODULE_NAME = Trump;
+				PRODUCT_NAME = Trump;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9011BE98CEB4DBCA8E106D3130247067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63671901CDA588CF73E918C1C8755B5 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DFA7D08415265C89B4959C7F4554A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A03BE8E0461A28876E0A0BFC9FE802A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CE8DC9CB5FADB029DECD4324396305 /* Pods-Trump.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Trump/Pods-Trump-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Trump/Pods-Trump.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7C37A757BDDACF4E19E2374C1E760C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDC9A8AF45E384324137EA46D0F9297 /* Trump.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Trump/Trump-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Trump/Trump-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Trump/Trump.modulemap";
+				PRODUCT_MODULE_NAME = Trump;
+				PRODUCT_NAME = Trump;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5E31FD449B316C6A8D8950A199B7BD /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9011BE98CEB4DBCA8E106D3130247067 /* Debug */,
+				3CE129EB08C29B2B78780DD0420D75D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */,
+				9DFA7D08415265C89B4959C7F4554A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864246C4794538189B6310F839B9CD50 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2188B93746A10E247BA5664A9269330B /* Debug */,
+				3F7922C24CD0E98077BF5EE84EC5E230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25535D9FD9775BD003DBF462D26763B /* Build configuration list for PBXNativeTarget "Trump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0F2B0C28327F4F6A32ADB8D0EBD2F6 /* Debug */,
+				A7C37A757BDDACF4E19E2374C1E760C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D4F368320C21A96E03BB51B4AE303F /* Build configuration list for PBXNativeTarget "Pods-Trump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2D9389513A977325A8CFE0C9658895 /* Debug */,
+				A03BE8E0461A28876E0A0BFC9FE802A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

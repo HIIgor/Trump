@@ -1,0 +1,27 @@
+PODS:
+  - JSONModel (1.8.0)
+  - SSZipArchive (2.2.2)
+  - Trump (0.1.0):
+    - JSONModel
+
+DEPENDENCIES:
+  - SSZipArchive
+  - Trump (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JSONModel
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  Trump:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  Trump: 5a1c812bacec4e554aabff2d359d1cb57ab38a9c
+
+PODFILE CHECKSUM: 94e1db49170cb30f61adca53545b50a430326b90
+
+COCOAPODS: 1.8.4

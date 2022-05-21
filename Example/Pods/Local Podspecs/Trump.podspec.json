@@ -1,0 +1,27 @@
+{
+  "name": "Trump",
+  "version": "0.1.0",
+  "summary": "A short description of Trump.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Igor Xiang/Trump",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Igor Xiang": "xiangyaguo@xxx.com"
+  },
+  "source": {
+    "git": "https://github.com/HiIgor/Trump.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Trump/Classes/**/*",
+  "dependencies": {
+    "JSONModel": [
+
+    ]
+  }
+}

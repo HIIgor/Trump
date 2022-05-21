@@ -1,6 +1,9 @@
 use_frameworks!
-target 'Trump_Tests' do
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+target 'Trump' do
   pod 'Trump', :path => '../'
-  
+  pod 'SSZipArchive'
   
 end
